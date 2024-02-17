@@ -11,12 +11,16 @@
   },
   "dependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "vite-plugin-babel": "^1.2.0"
   },
   "devDependencies": {
+    "@babel/plugin-syntax-jsx": "^7.23.3",
+    "@babel/plugin-transform-react-pure-annotations": "^7.23.3",
     "@types/react": "^18.2.55",
     "@types/react-dom": "^18.2.19",
     "@vitejs/plugin-react-swc": "^3.5.0",
+    "babel-plugin-transform-react-remove-prop-types": "^0.4.24",
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
